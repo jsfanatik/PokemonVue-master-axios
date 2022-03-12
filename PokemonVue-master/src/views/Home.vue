@@ -29,8 +29,7 @@ export default {
       pokemons: [],
       filteredPokemon: computed(()=> updatePokemon()), 
       text: "",
-      urlIdLookup: {}
-      
+      // urlIdLookup: {}
     });
 
     const fetchPokemon = () => {
